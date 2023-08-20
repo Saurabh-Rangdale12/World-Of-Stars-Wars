@@ -76,7 +76,7 @@ function draw() {
         fill(255, 255, 255);
         textSize(30);
         textAlign(CENTER);
-        text("Don't feel bad, I'm usually about to die.", width / 2, height / 2);
+        text("You lose !!s", width / 2, height / 2);
       }
     }
 
@@ -109,7 +109,7 @@ function draw() {
           textSize(30);
           textAlign(CENTER);
           gameSound.stop();
-          text("Looks like the sea does not like to be restrained.", width / 2, height / 2);
+          text("You win!!", width / 2, height / 2);
           victorySound.play();
           noLoop();
         }
