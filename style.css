@@ -197,10 +197,13 @@ body {
 }
 
 .percyj {
-    height: 500px;
+   height: 500px;
     width: auto;
     margin-top: -300px;
     padding-left: 20px;
+    /* border: 2px solid green; */
+    transform: scaleX(-1);
+    overflow: auto;
 }
 
 
